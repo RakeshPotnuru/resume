@@ -16,9 +16,9 @@ on:
       - completed
 
 env:
-  PDF_NAME: Jyotirmoy_Bandyopadhayaya_CV.pdf
+  PDF_NAME: Rakesh_Potnuru_Resume.pdf
   MISC_NAME: resume.zip
-  HTML_NAME: Jyotirmoy_Bandyopadhayaya_CV_PASTETOGRAMMARLY.html
+  HTML_NAME: Rakesh_Potnuru_Resume.html
 
 jobs:
   build:
