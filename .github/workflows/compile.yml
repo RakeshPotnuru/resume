@@ -16,9 +16,9 @@ on:
       - completed
 
 env:
-  PDF_NAME: Rakesh_Potnuru_Resume.pdf
+  PDF_NAME: Rakesh_Potnuru_CV.pdf
   MISC_NAME: resume.zip
-  HTML_NAME: Rakesh_Potnuru_Resume.html
+  HTML_NAME: Rakesh_Potnuru_CV_PASTETOGRAMMARLY.html
 
 jobs:
   build:
@@ -45,90 +45,19 @@ jobs:
         sudo apt-get install -y texlive-full latexmk
 
     - name: 📄 Generate PDF
-      run: |
-        echo "=== Current working directory ==="
-        pwd
-        echo ""
-        echo "=== Contents of current directory ==="
-        ls -la
-        echo ""
-        echo "=== Checking for resume.yaml ==="
-        if [ -f "resume.yaml" ]; then
-          echo "✓ Found resume.yaml"
-          echo "Contents preview:"
-          head -n 20 resume.yaml
-        else
-          echo "✗ resume.yaml not found!"
-          exit 1
-        fi
-        echo ""
-        echo "=== Checking Makefile ==="
-        if [ -f "Makefile" ]; then
-          echo "✓ Found Makefile"
-          cat Makefile
-        else
-          echo "✗ Makefile not found!"
-          exit 1
-        fi
-        echo ""
-        echo "=== Running rendercv render resume.yaml directly ==="
-        rendercv render resume.yaml
-        echo ""
-        echo "=== Checking if rendercv_output was created ==="
-        if [ -d "rendercv_output" ]; then
-          echo "✓ rendercv_output directory exists"
-          ls -la rendercv_output/
-        else
-          echo "✗ rendercv_output directory not found!"
-          echo "Searching for any output:"
-          find . -type f -newer Makefile
-        fi
-        echo ""
-        echo "=== Creating zip file ==="
-        if [ -d "rendercv_output" ]; then
-          zip -r resume.zip rendercv_output
-          echo "✓ Zip file created"
-          ls -la resume.zip
-        else
-          echo "✗ Cannot create zip - rendercv_output missing"
-          exit 1
-        fi
-
-    # Add debugging step to see what was actually generated
-    - name: 🔍 List generated files
-      run: |
-        echo "=== Current directory ==="
-        ls -la
-        echo ""
-        echo "=== Looking for rendercv_output directory ==="
-        find . -name "rendercv_output" -type d
-        echo ""
-        echo "=== Contents of rendercv_output (if exists) ==="
-        if [ -d "rendercv_output" ]; then
-          ls -la rendercv_output/
-        else
-          echo "rendercv_output directory not found!"
-        fi
-        echo ""
-        echo "=== Looking for all PDF files ==="
-        find . -name "*.pdf" -type f
-        echo ""
-        echo "=== Looking for resume.zip ==="
-        ls -la *.zip || echo "No zip files found"
+      run: make all
 
     - name: 📤 Upload PDF artifact
       uses: actions/upload-artifact@v4
       with:
         name: resume-pdf
         path: rendercv_output/${{ env.PDF_NAME }}
-        if-no-files-found: error  # This will make the job fail if file is not found
 
     - name: 📤 Upload Misc artifact
       uses: actions/upload-artifact@v4
       with:
         name: resume-misc-zip
         path: ${{ env.MISC_NAME }}
-        if-no-files-found: warn
 
   release:
     needs: build
