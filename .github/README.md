@@ -1,4 +1,4 @@
-<h1 align="center">Jyotirmoy Bandyopadhayaya - CV</h1>
+<h1 align="center">Rakesh - CV</h1>
 <p align="center">
 <i>This repo contains the source for my personal CV</i>
 <br />
@@ -20,5 +20,6 @@ Upon creating a tag (by triggering the [Tag Workflow](/.github/workflows/tag.yml
 
 ### Editing
 Modify data by editing [`resume.yaml`](/resume.yaml)<br>
+
 
 ---
