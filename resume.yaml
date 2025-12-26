@@ -11,16 +11,6 @@ cv:
   sections:
     summary:
       - "Software Engineer with over 3 years of professional experience. Proven expertise in full-stack development. Looking for a role where I can put my development skills to work, solve real problems, and collaborate closely with the team."
-    education:
-      - institution: "Lovely Professional University"
-        area: "Computer Science and Engineering"
-        start_date: "2020-06"
-        end_date: "2024-06"
-        location: "Jalandhar, India"
-        degree: "Bachelor of Technology"
-        highlights:
-          # - "GPA: 7.8/10"
-          - "Major: Machine Learning"
     experience:
       - company: "[Chainrisk](https://chainrisk.xyz)"
         position: "Software Engineer"
@@ -43,7 +33,7 @@ cv:
         end_date: "2025-03"
         highlights:
           - "Led the frontend development of the Truffles AI, enabling enterprises to automate data extraction, underwriting, and credit modeling - contributing to 90% faster processing times showcased in customer case studies."
-          - "Developed responsive, high-performance UIs in Next.js + TypeScript, powering features like document ingestion, multi-format data viewing, real-time AI extraction, and workflow dashboards."
+          - "Developed responsive, high-performance UIs in Next.js + TypeScript, powering features like document ingestion, multi-format data viewing, real-time AI extraction, and workflow dashboards. Utilized Supabase for auth, storage, and realtime updates."
           - "Collaborated closely with ML engineers, backend teams, and product leads to ship scalable interfaces supporting high-compliance environments (PCI-DSS, SOC-2)."
       - company: "[Truffles](https://www.linkedin.com/company/truffles1)"
         position: "Frontend Engineer"
@@ -102,5 +92,15 @@ cv:
         details: "PostgreSQL, Redis, SQLite, MongoDB"
      # - label: "Security"
       #  details: "DevSecOps Principles, OWASP Top 10, Network Security, IAM, CPTS, CEHv12"
+    education:
+      - institution: "Lovely Professional University"
+        area: "Computer Science and Engineering"
+        start_date: "2020-06"
+        end_date: "2024-06"
+        location: "Jalandhar, India"
+        degree: "Bachelor of Technology"
+        highlights:
+          # - "GPA: 7.8/10"
+          - "Major: Machine Learning"
 design:
   theme: engineeringresumes
