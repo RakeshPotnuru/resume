@@ -21,12 +21,12 @@ cv:
           - "Developed the frontend for AFI Financial Intelligence Ledger for RWAs, a Proof-of-Reserve infrastructure platform enabling institutional-grade, composable yield in DeFi."
           - "Integrated Thirdweb to interact with smart contracts, enabling seamless on-chain operations and asset verification within the product."
           - "Collaborated closely with product, design, and blockchain engineers to deliver reliable, performant interfaces for institutional-grade DeFi analytics."
-      - company: "[Ramotion](https://www.ramotion.com)"
-        position: "Technical Writer (Freelance)"
-        start_date: "2022-05"
-        end_date: "present"
-        highlights:
-          - "Writing in-depth technical articles covering web technologies, design systems, and engineering best practices."
+      # - company: "[Ramotion](https://www.ramotion.com)"
+      #   position: "Technical Writer (Freelance)"
+      #   start_date: "2022-05"
+      #   end_date: "present"
+      #   highlights:
+      #     - "Writing in-depth technical articles covering web technologies, design systems, and engineering best practices."
       - company: "[Truffles AI](https://www.truffles.ai)"
         position: "Lead Frontend Engineer"
         start_date: "2024-01"
