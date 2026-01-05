@@ -33,7 +33,7 @@ cv:
         start_date: "2024-01"
         end_date: "2025-03"
         highlights:
-          - "Directed the frontend development for an enterprise AI platform that automated data extraction and credit modeling, achieving a 90% reduction in processing times."
+          - "Directed the frontend development for an enterprise AI platform that automated data extraction, underwriting, and credit modeling - contributing to 90% faster processing times showcased in customer case studies."
           - "Developed responsive, high-performance UIs in Next.js + TypeScript, powering features like document ingestion, multi-format data viewing, real-time AI extraction, and workflow dashboards."
           - "Data Management: Implemented Supabase for secure authentication, storage, and real-time database updates."
           - "Collaborated closely with ML engineers, backend teams, and product leads to ship scalable interfaces supporting high-compliance environments (PCI-DSS, SOC-2)."
