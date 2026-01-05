@@ -10,16 +10,17 @@ cv:
       username: "rakeshpotnuru"
   sections:
     summary:
-      - "Software Engineer with over 3 years of professional experience. Proven expertise in full-stack development. Looking for a role where I can put my development skills to work, solve real problems, and collaborate closely with the team."
+      - "Software Engineer with over 3 years of experience specializing in full-stack development within the DeFi and AI sectors. Proven track record of leading frontend architecture for institutional-grade platforms and integrating complex backend behaviors using LangChain and Thirdweb. Expert in building scalable, high-performance UIs with Next.js and TypeScript for high-compliance environments."
     experience:
       - company: "[Chainrisk](https://chainrisk.xyz)"
         position: "Software Engineer"
         start_date: "2025-04"
         end_date: "2025-11"
         highlights:
-          - "Led the frontend development for AFI Protocol Agents, a high-fidelity DeFi research assistant trained on on-chain data; also contributed to backend workflows using LangChain to power intelligent agent behaviors."
-          - "Developed the frontend for AFI Financial Intelligence Ledger for RWAs, a Proof-of-Reserve infrastructure platform enabling institutional-grade, composable yield in DeFi."
-          - "Integrated Thirdweb to interact with smart contracts, enabling seamless on-chain operations and asset verification within the product."
+          - "Frontend Leadership: Architected the frontend for AFI Protocol Agents, a high-fidelity DeFi research assistant utilizing on-chain data to provide real-time insights."
+          - "Engineered intelligent agent behaviors by contributing to backend workflows using LangChain, bridging the gap between raw data and actionable AI responses."
+          - "Built the interface for the AFI Financial Intelligence Ledger, a Proof-of-Reserve platform designed for institutional-grade RWA and DeFi yield management."
+          - "Streamlined on-chain operations by integrating Thirdweb, enabling secure smart contract interaction and automated asset verification."
           - "Collaborated closely with product, design, and blockchain engineers to deliver reliable, performant interfaces for institutional-grade DeFi analytics."
       # - company: "[Ramotion](https://www.ramotion.com)"
       #   position: "Technical Writer (Freelance)"
@@ -32,8 +33,9 @@ cv:
         start_date: "2024-01"
         end_date: "2025-03"
         highlights:
-          - "Led the frontend development of the Truffles AI, enabling enterprises to automate data extraction, underwriting, and credit modeling - contributing to 90% faster processing times showcased in customer case studies."
-          - "Developed responsive, high-performance UIs in Next.js + TypeScript, powering features like document ingestion, multi-format data viewing, real-time AI extraction, and workflow dashboards. Utilized Supabase for auth, storage, and realtime updates."
+          - "Directed the frontend development for an enterprise AI platform that automated data extraction and credit modeling, achieving a 90% reduction in processing times."
+          - "Developed responsive, high-performance UIs in Next.js + TypeScript, powering features like document ingestion, multi-format data viewing, real-time AI extraction, and workflow dashboards."
+          - "Data Management: Implemented Supabase for secure authentication, storage, and real-time database updates."
           - "Collaborated closely with ML engineers, backend teams, and product leads to ship scalable interfaces supporting high-compliance environments (PCI-DSS, SOC-2)."
       - company: "[Truffles](https://www.linkedin.com/company/truffles1)"
         position: "Frontend Engineer"
@@ -49,15 +51,20 @@ cv:
         end_date: "2023-05"
         highlights:
           - "Assisted senior engineers in developing core product features using React, Next.js, and Tailwind CSS."
-      - company: "[MLH Fellowship](https://mlh.io)"
-        position: "MLH Fellow"
-        start_date: "2022-07"
-        end_date: "2022-07"
-        highlights:
-          - "Contributed to open-source projects through collaborative sprints and pair programming."
-          - "Gained hands-on experience with software engineering workflows, GitHub collaboration, and community-driven development."
+      # - company: "[MLH Fellowship](https://mlh.io)"
+      #   position: "MLH Fellow"
+      #   start_date: "2022-07"
+      #   end_date: "2022-07"
+      #   highlights:
+      #     - "Contributed to open-source projects through collaborative sprints and pair programming."
+      #     - "Gained hands-on experience with software engineering workflows, GitHub collaboration, and community-driven development."
     projects:
-      - name: "[WithUPI - Get Your UPI Page](https://withupi.com)"
+      - name: "[Publish Studio - Creator Tooling Suite](https://itsrakesh.com/projects/publish-studio)"
+        date: "2024-03-04"
+        highlights:
+          - "A content curation and publishing platform used by writers, marketers, and bloggers to plan, draft, and distribute content efficiently."
+          - "Tech Stack: NextJS, Paddle, tRPC, MongoDB, TailwindCSS, Sendgrid & Resend, Redis, Posthog, ExpressJS, Vite" 
+      - name: "[WithUPI](https://withupi.com)"
         date: "2025-08-29"
         highlights:
           - "A simple Buy Me A Coffee alternative to provide an instant way to support creators."
@@ -67,11 +74,6 @@ cv:
         highlights:
           - "A minimal social media platform with an aim of reducing social media addiction."
           - "Tech Stack: NextJS, TypeScript, NestJS, Supabase, PostgreSQL, Google Cloud (NLP, Storage), Mux, ExpressJS"
-      - name: "[Publish Studio - Creator Tooling Suite](https://itsrakesh.com/projects/publish-studio)"
-        date: "2024-03-04"
-        highlights:
-          - "A content curation and publishing platform used by writers, marketers, and bloggers to plan, draft, and distribute content efficiently."
-          - "Tech Stack: NextJS, Paddle, tRPC, MongoDB, TailwindCSS, Sendgrid & Resend, Redis, Posthog, ExpressJS, Vite"
    # certifications:
     #  - name: "[Certified Penetration Testing Specialist](https://www.credly.com/badges/d3c0c02e-4946-4ecb-a513-be4d2be8f812) by [HackTheBox](https://www.hackthebox.com/)"
      #   date: "2024-07"
