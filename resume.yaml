@@ -92,6 +92,8 @@ cv:
         details: "TypeScript, Python, NextJS, NestJS, Flask, ExpressJS, React & React Native, TailwindCSS, Sass, tRPC, Gatsby"
       - label: "Databases & Caching"
         details: "PostgreSQL, Redis, SQLite, MongoDB"
+      - label: "AI"
+        details: "Langchain, Pinecone"
      # - label: "Security"
       #  details: "DevSecOps Principles, OWASP Top 10, Network Security, IAM, CPTS, CEHv12"
     education:
