@@ -58,22 +58,22 @@ cv:
       #   highlights:
       #     - "Contributed to open-source projects through collaborative sprints and pair programming."
       #     - "Gained hands-on experience with software engineering workflows, GitHub collaboration, and community-driven development."
-    projects:
-      - name: "[Publish Studio - Creator Tooling Suite](https://itsrakesh.com/projects/publish-studio)"
-        date: "2024-03-04"
-        highlights:
-          - "A content curation and publishing platform used by writers, marketers, and bloggers to plan, draft, and distribute content efficiently."
-          - "Tech Stack: NextJS, Paddle, tRPC, MongoDB, TailwindCSS, Sendgrid & Resend, Redis, Posthog, ExpressJS, Vite" 
-      - name: "[WithUPI](https://withupi.com)"
-        date: "2025-08-29"
-        highlights:
-          - "A simple Buy Me A Coffee alternative to provide an instant way to support creators."
-          - "Tech Stack: NextJS, TypeScript, Supabase, TailwindCSS"
-      - name: "[My One Post - Minimal Social Platform](https://github.com/RakeshPotnuru/myonepost)"
-        date: "2024-12-18"
-        highlights:
-          - "A minimal social media platform with an aim of reducing social media addiction."
-          - "Tech Stack: NextJS, TypeScript, NestJS, Supabase, PostgreSQL, Google Cloud (NLP, Storage), Mux, ExpressJS"
+    # projects:
+    #   - name: "[Publish Studio - Creator Tooling Suite](https://itsrakesh.com/projects/publish-studio)"
+    #     date: "2024-03-04"
+    #     highlights:
+    #       - "A content curation and publishing platform used by writers, marketers, and bloggers to plan, draft, and distribute content efficiently."
+    #       - "Tech Stack: NextJS, Paddle, tRPC, MongoDB, TailwindCSS, Sendgrid & Resend, Redis, Posthog, ExpressJS, Vite" 
+    #   - name: "[WithUPI](https://withupi.com)"
+    #     date: "2025-08-29"
+    #     highlights:
+    #       - "A simple Buy Me A Coffee alternative to provide an instant way to support creators."
+    #       - "Tech Stack: NextJS, TypeScript, Supabase, TailwindCSS"
+    #   - name: "[My One Post - Minimal Social Platform](https://github.com/RakeshPotnuru/myonepost)"
+    #     date: "2024-12-18"
+    #     highlights:
+    #       - "A minimal social media platform with an aim of reducing social media addiction."
+    #       - "Tech Stack: NextJS, TypeScript, NestJS, Supabase, PostgreSQL, Google Cloud (NLP, Storage), Mux, ExpressJS"
    # certifications:
     #  - name: "[Certified Penetration Testing Specialist](https://www.credly.com/badges/d3c0c02e-4946-4ecb-a513-be4d2be8f812) by [HackTheBox](https://www.hackthebox.com/)"
      #   date: "2024-07"
