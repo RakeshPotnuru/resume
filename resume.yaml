@@ -12,6 +12,12 @@ cv:
     summary:
       - "Software Engineer with over 3 years of experience specializing in full-stack development within the DeFi and AI sectors. Proven track record of leading frontend architecture for institutional-grade platforms and integrating complex backend behaviors using LangChain and Thirdweb. Expert in building scalable, high-performance UIs with Next.js and TypeScript for high-compliance environments."
     experience:
+      - company: "[Zupyter](https://www.zupyter.com)"
+        position: "Senior Software Engineer"
+        start_date: "2026-01"
+      - company: "[Gistr](https://www.zupyter.com)"
+        position: "Full-Stack Engineer (Freelance)"
+        start_date: "2026-05"
       - company: "[Chainrisk](https://chainrisk.xyz)"
         position: "Software Engineer"
         start_date: "2025-04"
