@@ -18,6 +18,7 @@ cv:
       - company: "[Gistr](https://www.zupyter.com)"
         position: "Full-Stack Engineer (Freelance)"
         start_date: "2026-05"
+        end_date: "2026-08"
       - company: "[Chainrisk](https://chainrisk.xyz)"
         position: "Software Engineer"
         start_date: "2025-04"
